@@ -1,19 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace Resiliance_Tracker
 {
     class TextFileWriter
     {
+        private string GetDataFilePath()
+        {
+            string fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),"clientData.txt");
+            if (!File.Exists(fileName))
+            {
+                var fileStream = File.Create(fileName);
+                fileStream.Close();
+            }
+            return fileName;
+        }
 
         public void ReadFile()
         {
             string line;
-            StreamReader sr = new StreamReader
-                    ("C:/Users/Ciaran/Documents/Visual Studio 2015/Projects/Resiliance Tracker/ClientDataText.txt");
+            StreamReader sr = new StreamReader(GetDataFilePath());
 
             try
             {
@@ -76,8 +82,7 @@ namespace Resiliance_Tracker
 
         public void WriteFile()
         {
-            StreamWriter sw = new StreamWriter
-                    ("C:/Users/Ciaran/Documents/Visual Studio 2015/Projects/Resiliance Tracker/ClientDataText.txt");
+            StreamWriter sw = new StreamWriter(GetDataFilePath());
 
             //sw.WriteLine("");
             foreach (Client client in Form1.clients)
