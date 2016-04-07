@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ResilienceTracker" Class="ResilienceDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WINDOWS-BHNKOCN\SQLEXPRESS;Initial Catalog=ResilienceTracker;Integrated Security=True;Encrypt=False;TrustServerCertificate=True" SettingsObjectName="Resiliance_Tracker.Properties.Settings" SettingsPropertyName="ResilienceTrackerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MasterClientTable" Member="MasterClientTables">
+    <Type Name="MasterClientTable">
+      <Column Name="[Client Number]" Member="Client_Number" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Week 1]" Member="Week_1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 2]" Member="Week_2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 3]" Member="Week_3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 4]" Member="Week_4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 5]" Member="Week_5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 6]" Member="Week_6" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 7]" Member="Week_7" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 8]" Member="Week_8" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 9]" Member="Week_9" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 10]" Member="Week_10" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 11]" Member="Week_11" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 12]" Member="Week_12" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 13]" Member="Week_13" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 14]" Member="Week_14" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 15]" Member="Week_15" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 16]" Member="Week_16" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 17]" Member="Week_17" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 18]" Member="Week_18" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 19]" Member="Week_19" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 20]" Member="Week_20" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 21]" Member="Week_21" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 22]" Member="Week_22" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 23]" Member="Week_23" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Week 24]" Member="Week_24" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

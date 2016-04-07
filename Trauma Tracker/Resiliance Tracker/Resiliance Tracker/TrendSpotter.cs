@@ -61,7 +61,11 @@ namespace Resiliance_Tracker
         //Looks for an improvement over time, which today's result adds to.
         public static int SpotImprovement(Client client)
         {
-            int toBeMultipliedBy = 100 / maxResult;
+            //using average result rather than max result here, hence improvements that
+            //go more than half way up the scale from top to bottom will rank over 100.
+            //This is to add more weight to smaller improvements as they didn't show up
+            //much otherwise.
+            int toBeMultipliedBy = 100 / (int)averageResult;
 
             if (client.recentScores.Last() < client.recentScores[client.recentScores.Count - 2])
                 return 0;
@@ -72,7 +76,7 @@ namespace Resiliance_Tracker
         //Looks for an decline over time, which today's result adds to.
         public static int SpotDecline(Client client)
         {
-            int toBeMultipliedBy = 100 / maxResult;
+            int toBeMultipliedBy = 100 / (int)averageResult;
 
             if (client.recentScores.Last() > client.recentScores[client.recentScores.Count - 2])
                     return 0;

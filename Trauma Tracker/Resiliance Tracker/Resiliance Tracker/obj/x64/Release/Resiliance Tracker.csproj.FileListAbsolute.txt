@@ -1,0 +1,15 @@
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Resiliance Tracker.exe.config
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Cients.mdf
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Cients_log.ldf
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Resiliance Tracker.exe.manifest
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Resiliance Tracker.application
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Resiliance Tracker.exe
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\x64\Release\Resiliance Tracker.pdb
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance_Tracker.Form1.resources
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance_Tracker.Properties.Resources.resources
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.csproj.GenerateResource.Cache
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.exe.manifest
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.application
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.exe
+C:\Users\Ciaran\documents\visual studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\x64\Release\Resiliance Tracker.pdb

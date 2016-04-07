@@ -1,0 +1,15 @@
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance_Tracker.Form1.resources
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance_Tracker.Properties.Resources.resources
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.csproj.GenerateResource.Cache
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Cients.mdf
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Cients_log.ldf
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Resiliance Tracker.exe.config
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Resiliance Tracker.exe.manifest
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Resiliance Tracker.application
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Resiliance Tracker.exe
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\bin\Debug\Resiliance Tracker.pdb
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.exe.manifest
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.application
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.exe
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.pdb
+C:\Users\Ciaran\Documents\Visual Studio 2015\Projects\Resiliance Tracker\Resiliance Tracker\obj\Debug\Resiliance Tracker.csprojResolveAssemblyReference.cache

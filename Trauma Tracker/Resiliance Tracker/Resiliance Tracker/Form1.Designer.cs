@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.clientNumberInput = new System.Windows.Forms.TextBox();
@@ -37,10 +38,12 @@
             this.feedbackOutput = new System.Windows.Forms.RichTextBox();
             this.weekInput = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.resilianceInput = new System.Windows.Forms.TextBox();
+            this.InventoryInput = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.Client1Test = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -48,7 +51,7 @@
             this.button2.Location = new System.Drawing.Point(25, 188);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(305, 47);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Update Client";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -66,10 +69,10 @@
             // 
             // clientNumberInput
             // 
-            this.clientNumberInput.Location = new System.Drawing.Point(218, 56);
+            this.clientNumberInput.Location = new System.Drawing.Point(318, 52);
             this.clientNumberInput.Name = "clientNumberInput";
             this.clientNumberInput.Size = new System.Drawing.Size(112, 26);
-            this.clientNumberInput.TabIndex = 3;
+            this.clientNumberInput.TabIndex = 1;
             // 
             // resultsOutput
             // 
@@ -111,10 +114,10 @@
             // 
             // weekInput
             // 
-            this.weekInput.Location = new System.Drawing.Point(218, 96);
+            this.weekInput.Location = new System.Drawing.Point(318, 92);
             this.weekInput.Name = "weekInput";
             this.weekInput.Size = new System.Drawing.Size(112, 26);
-            this.weekInput.TabIndex = 9;
+            this.weekInput.TabIndex = 2;
             // 
             // label4
             // 
@@ -127,12 +130,12 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Week Number";
             // 
-            // resilianceInput
+            // InventoryInput
             // 
-            this.resilianceInput.Location = new System.Drawing.Point(218, 138);
-            this.resilianceInput.Name = "resilianceInput";
-            this.resilianceInput.Size = new System.Drawing.Size(112, 26);
-            this.resilianceInput.TabIndex = 11;
+            this.InventoryInput.Location = new System.Drawing.Point(318, 134);
+            this.InventoryInput.Name = "InventoryInput";
+            this.InventoryInput.Size = new System.Drawing.Size(112, 26);
+            this.InventoryInput.TabIndex = 3;
             // 
             // label5
             // 
@@ -141,9 +144,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(25, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 31);
+            this.label5.Size = new System.Drawing.Size(270, 31);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Resiliance";
+            this.label5.Text = "Trauma Inventory Score";
             // 
             // Client1Test
             // 
@@ -172,7 +175,7 @@
             this.ClientSize = new System.Drawing.Size(1149, 922);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.Client1Test);
-            this.Controls.Add(this.resilianceInput);
+            this.Controls.Add(this.InventoryInput);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.weekInput);
             this.Controls.Add(this.label4);
@@ -185,6 +188,7 @@
             this.Controls.Add(this.button2);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,10 +204,11 @@
         private System.Windows.Forms.RichTextBox feedbackOutput;
         private System.Windows.Forms.TextBox weekInput;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox resilianceInput;
+        private System.Windows.Forms.TextBox InventoryInput;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button Client1Test;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
 
