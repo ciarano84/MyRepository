@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\Ciaran\Google Drive\Trauma App - As You Are\Resilience Tracker\|C:\Users\Ciaran\Documents\Resilience Tracker\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <PublishUrlHistory>C:\ADeploymentFolder\|C:\Users\Ciaran\Google Drive\Trauma App - As You Are\Resilience Tracker\|C:\Users\Ciaran\Documents\Resilience Tracker\</PublishUrlHistory>
+    <InstallUrlHistory>http://52.16.215.179/content/resiliancetracker/|http://localhost/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
